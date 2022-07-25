@@ -1,0 +1,301 @@
+* {
+
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+li {
+
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+#logocolegio {
+
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
+header {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(0, 81, 169);
+    padding: 17px;
+    
+}
+
+
+a {
+
+    color: white
+
+}
+
+a {
+
+    font-family: 'Gelasio', serif;
+    font-size: 22px;
+
+}
+
+aside {
+
+    font-family: 'Gelasio', serif;
+    text-align: center;
+    color: rgb(54, 54, 54);
+
+}
+
+#titleofc {
+
+    color: rgb(54, 54, 54);
+    font-family: 'Great Vibes', cursive;
+    font-size: 100px;
+    text-align: center;
+    margin-top: 25px;
+
+}
+
+article {
+
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.btn {
+
+    color: white;
+    background-color: rgb(0, 81, 169);
+    padding: 10px;
+    border-radius: 12px;
+  
+}
+
+#distanciar {
+
+    margin-top: 30px;
+    
+}
+
+footer {
+    
+    text-align: center;
+    font-size: 10px;
+    font-family: 'Gelasio', serif;
+    color: white;
+    background-color: rgb(0, 81, 169);
+    padding: 8px;
+
+}
+
+#links {
+
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+li {
+
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    color: rgb(0, 81, 169);
+    font-family: 'Gelasio', serif;
+  
+}
+
+h3 {
+
+    font-size: 17px;
+
+}
+
+#subtitle {
+
+    color: rgb(54, 54, 54);
+    font-family: 'Gelasio', serif;
+    font-size: 21px;
+
+}
+
+h3 {
+    
+    line-height: 21px;
+
+}
+
+#img12345678910 {
+
+    width: 37px;
+
+}
+
+main {
+
+    margin-top: 29px;
+
+}
+
+footer{
+
+    margin-top: 29px;
+
+}
+
+@media (max-width: 1050px) {
+
+    #o1234 {
+
+        width: 320px;
+        height: 320px;
+
+    }
+
+    #o123 {
+
+        width: 220px;
+        height: 220px;
+
+    }
+
+    main {
+
+        margin-top: 69px;
+
+    }
+
+    footer {
+
+        margin-top: 69px;
+
+    }
+
+    #imagens12345 {
+
+        width: 320px;
+        height: 320px;
+
+    }
+
+    #imagens123 {
+
+        width: 220px;
+        height: 220px;
+    }
+
+}
+
+@media (max-width: 780px) {
+
+    #o123 {
+
+        width: 0px;
+        height: 0px;
+
+    } 
+
+    #subtitle {
+
+        max-width: 450px;
+        width: 449px;
+        margin-inline: auto;
+        
+    }
+
+    main {
+
+        margin-top: 56px;
+
+    }
+
+    footer {
+
+        margin-top: 56px;
+
+    }
+
+}
+
+@media (max-width: 505px) {
+
+    header {
+
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    li {
+
+        margin-top: 15px;
+
+    }
+
+    #subtitle, h3 {
+
+        max-width: 450px;
+        width: 90%;
+        margin-inline: auto;
+
+    }
+
+    #subtitle {
+
+        line-height: 18px;
+
+    }
+
+    #subsubtitle {
+
+        margin-top: 5px;
+    }
+
+    li {
+
+        max-width: 650px;
+        width: 350px;
+        margin-inline: auto;
+        text-align: center;
+
+    } 
+
+    ul {
+
+        display: flex;
+        justify-content: center;
+
+    }
+
+}
+
+@media (max-width: 460px) {
+
+    li {
+
+        max-width: 460px;
+        width: 250px;
+        margin-inline: auto;
+    }
+
+}
+
+
+
+
+

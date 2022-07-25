@@ -1,0 +1,299 @@
+* {
+
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+li {
+
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+#logocolegio {
+
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
+header {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(0, 81, 169);
+    padding: 17px;
+    
+}
+
+
+a {
+
+    color: white
+
+}
+
+a {
+
+    font-family: 'Gelasio', serif;
+    font-size: 22px;
+
+}
+
+aside {
+
+    font-family: 'Gelasio', serif;
+    text-align: center;
+    color: rgb(54, 54, 54);
+
+}
+
+#titleofc {
+
+    color: rgb(54, 54, 54);
+    font-family: 'Great Vibes', cursive;
+    font-size: 100px;
+    text-align: center;
+    margin-top: 25px;
+
+}
+
+#paracelular {
+
+    color: rgb(54, 54, 54);
+    font-family: 'Great Vibes', cursive;
+    font-size: 0px;
+    text-align: center;
+
+}
+
+
+button {
+
+    color: white;
+    background-color: rgb(0, 81, 169);
+    padding: 10px;
+    border-radius: 12px;
+  
+}
+
+#distanciar {
+
+    margin-top: 30px;
+    
+}
+
+footer {
+    
+    text-align: center;
+    font-size: 10px;
+    font-family: 'Gelasio', serif;
+    color: white;
+    background-color: rgb(0, 81, 169);
+    padding: 10px;
+
+}
+
+#links {
+
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+main {
+
+    margin-top: 122px;
+
+}
+
+footer {
+
+    margin-top: 121px;
+
+}
+
+li {
+
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    color: rgb(0, 81, 169);
+    font-family: 'Gelasio', serif;
+    
+}
+
+
+button {
+
+    border: none;
+    padding: 17px;
+    font-size: 20px;
+    font-family: 'Gelasio', serif;
+
+}
+
+
+button {
+
+    max-width: 650px;
+    width: 600px;
+
+}
+
+h2 {
+
+    font-size: 15px;
+}
+
+button {
+
+    transition: filter 0.2s;
+
+}
+
+button:hover {
+
+    filter: opacity(0.7);
+    cursor: pointer;
+
+}
+
+@media (max-width: 700px) {
+
+    #titleofc {
+
+        font-size: 0px;
+
+    }
+
+    #paracelular {
+
+        font-size: 100px;
+        line-height: 95px;
+    }
+
+    main {
+
+        margin-top: 89px;
+
+    }
+
+    footer {
+
+        margin-top: 89px;
+    }
+
+}
+
+@media (max-width: 650px) {
+    
+    button {
+
+        max-width: 650px;
+        width: 350px;
+    
+    }
+
+}
+@media (max-width: 505px) {
+
+    header {
+
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    li {
+
+        margin-top: 15px;
+
+    }
+
+    main {
+
+        margin-top: 58px;
+
+    }
+
+    footer {
+
+        margin-top: 57px;
+    }
+
+    li {
+
+        max-width: 650px;
+        width: 350px;
+        margin-inline: auto;
+        text-align: center;
+
+    } 
+
+    button {
+
+        max-width: 650px;
+        width: 350px;
+
+    }
+
+}
+
+@media (max-width: 460px) {
+
+    li {
+
+        max-width: 460px;
+        width: 250px;
+        margin-inline: auto;
+    }
+
+    button {
+
+        max-width: 460px;
+        width: 250px;
+    
+    }
+
+}
+
+@media (max-width: 375px) {
+
+    #paracelular {
+
+        font-size: 80px;
+        line-height: 75px;
+    }
+
+    main {
+
+        margin-top: 98px;
+
+    }
+
+    footer {
+
+        margin-top: 98;
+
+    }
+
+    li {
+
+        margin-left: 2px;
+        margin-right: 2px;
+
+    }
+    
+}
